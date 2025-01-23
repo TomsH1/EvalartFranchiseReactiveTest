@@ -93,10 +93,10 @@ Esto construirá las imágenes de Docker y levantará los contenedores para la A
  docker-compose down
  Esto detendrá y eliminará los contenedores, pero mantendrá los datos persistentes en el volumen mongo-data.
 
-##Endpoints de la API
+## Endpoints de la API
 Una vez que la aplicación esté en ejecución, puedes acceder a los siguientes endpoints a través de Swagger UI o directamente con herramientas como Postman o cURL.
 
-#Acceso a Swagger UI
+# Acceso a Swagger UI
 Swagger UI proporciona una interfaz gráfica donde puedes probar todos los endpoints disponibles de la API. Una vez que la API esté en ejecución, abre tu navegador y ve a la siguiente URL:
 
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui/index.html#/)
